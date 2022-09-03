@@ -14,7 +14,7 @@ h1, h2 {
 
 /* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
 #wrapper {
-	width:500px;
+	width:1500;
 	margin:0 auto;    /* centers wrapper */
 }
 
