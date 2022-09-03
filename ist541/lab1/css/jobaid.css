@@ -45,7 +45,7 @@ h1, h2 {
 }
 img { 
 border-radius: 10px;
-box-shadow: 0 4px 4px 0 gray, 0 6px 100px 0 gray;
+box-shadow: 0 4px 4px 0 gray, 0 6px 10px 0 gray;
 }
 
 
