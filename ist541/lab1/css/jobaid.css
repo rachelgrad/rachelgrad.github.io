@@ -6,6 +6,12 @@ body {
 	color: #000000;          /* text color for the entire page */
 	font-size: 12px;
 	font-family: Verdana, Geneva, sans-serif;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+
 }
 
 h1, h2 { 
