@@ -5,12 +5,7 @@ body {
 	background-color:#A2DAFF;   /* background color */
 	color: #000000;          /* text color for the entire page */
 	font-size: 12px;
-	font-family: Verdana, Geneva, sans-serif;
-	border-top-left-radius: 20px;
-	border-top-right-radius: 20px;
-
-	border-bottom-left-radius: 20px;
-	border-bottom-right-radius: 20px;
+	font-family: Trebuchet MS, sans-serif;
 
 }
 
