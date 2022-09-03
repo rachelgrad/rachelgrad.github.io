@@ -14,14 +14,14 @@ h1, h2 {
 
 /* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
 #wrapper {
-	width:1500;
+	width:900;
 	margin:0 auto;    /* centers wrapper */
 }
 
 /* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
 .stepTitle{
 	padding:4px;
-	text-align:left;
+	text-align:center;
 	font-size:16px;
 	background-color:#F3F69C
  }
@@ -31,10 +31,16 @@ h1, h2 {
 	padding:7px;
 	display: flex;
 	justify-content: center;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+
 }
 
 .stepDescription {
-	width:90%;
+	width:60%;
 	padding:5px;
 }
 
@@ -43,6 +49,7 @@ h1, h2 {
 	padding:5px;
 	text-align: center;
 }
+
 
 
 
