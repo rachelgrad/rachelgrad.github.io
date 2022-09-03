@@ -24,6 +24,10 @@ h1, h2 {
 	text-align:center;
 	font-size:16px;
 	background-color:#F3F69C
+    
+    border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+
  }
 
 .stepContent{ 
@@ -31,12 +35,6 @@ h1, h2 {
 	padding:7px;
 	display: flex;
 	justify-content: center;
-	border-top-left-radius: 20px;
-	border-top-right-radius: 20px;
-
-	border-bottom-left-radius: 20px;
-	border-bottom-right-radius: 20px;
-
 }
 
 .stepDescription {
