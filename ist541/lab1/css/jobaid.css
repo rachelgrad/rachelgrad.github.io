@@ -1,6 +1,15 @@
 /* CSS Document */
 /* All comments go between the front slash and asterisk symbols */
 
+.warning {
+		background-color: #FBB8C4;
+		padding:10px;
+		border-radius:10px;
+	}
+.material-icons {
+	color:red; 
+	font-size:2em;
+}
 body {
 	background-color:#A2DAFF;   /* background color */
 	color: #000000;          /* text color for the entire page */
