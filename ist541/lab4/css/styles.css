@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* CSS Document */
+
+ody {
+	background-color: lightblue;   /* background image*/
+	color: black;          /* text color for the entire document */
+	font-size: 12px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+#wrapper {
+	width:900; 
+	margin:0 auto;         /* centers wrapper */
+ 	text-align:center;
+	background-color: lightblue;  /* creates white background with 80% opacity */
+}
+
+table {
+	margin:0 auto;  /* centers table*/
+}
+
+td {
+	background-color: lightblue;  /* sets background color for table cells*/
+}
+
+h1, h2 { 
+	text-align:center;     /* centers h1 and h2 content */
+}
+
+audio { 
+	width:200px;   /* sets the width of the audio controls */
+}
+
+a {
+	padding: 15px;
+margin: 3px;
+	font-size: 125%;
+	background-color:  ivory; 
+	color:  blue; 
+}
+
