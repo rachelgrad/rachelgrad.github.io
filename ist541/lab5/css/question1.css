@@ -7,9 +7,16 @@ margin: 0 auto;
 text-align: center;
 }
 
- #thumb {
-border: black 5px solid;
+#thumb {
+	cursor: pointer;
+	border: black 0px solid;
 }
+
+#trash {
+	display: none;
+	border: black 0px solid;
+}
+
  
  #koala_eating {
 display: none; /* hides content */
@@ -24,8 +31,18 @@ body {
 	font-size: 14px;
 	font-family: Trebuchet MS, sans-serif;
 
+	
+
+a {
+	padding: 15px;
+margin: 3px;
+	font-size: 125%;
+	background-color:  cornsilk; 
+	color:  blue; 
+}
+
 a:hover {
 	font-size:125%;
-	background-color: cornsilk; 
+	background-color: ivory; 
 	color: darkblue; 
 }
