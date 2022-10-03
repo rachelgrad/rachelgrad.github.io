@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Quiz</title>
+<link href="css/question1.css" rel="stylesheet" type="text/css">
+<script src="https://code.jquery.com/jquery-2.1.0.min.js"></script>
+<script>
+   $( function() {
+	   $("#option1").click( function(){
+		   $("#feedback").html("<h2 style='color:red'> Incorrect. They're trying to make you think you won an award and will probably try to scam you. </h2>");
+	   });
+	   
+       $("#option2").click( function(){
+		   $("#feedback").html("<h2 style='color:red'> Incorrect.  Just because a company name is in the address, doesn't mean it's legit. </h2>");
+		   $("#koala_image").css("display","none");
+	   });	 
+	   
+       $("#option3").click( function(){
+		   $("#feedback").html("<h2 style='color:green'> Yes, this address is safe, but it's hard to tell. <br>If you receive a notification from a service provider, ignore it and log in to your official account to verify. </h2>");
+		   $("#koala_image").css("display","inline");
+	   });		   
+	     	
+       $("#option4").click( function(){
+		   $("#feedback").html("<h2 style='color:red'> Incorrect.  A long string of numbers and letters like this often indicates a fraud. </h2>");
+		   $("#koala_image").css("display","none");
+	   });	 
+	          $("#option5").click( function(){
+		   $("#feedback2").html("<h2 style='color:red'> Incorrect. Scam emails can include real company branding. </h2>");
+		   $("#koala_image").css("display","none");
+	   });	
+	   	     $("#option6").click( function(){
+		   $("#feedback2").html("<h2 style='color:red'> Incorrect. You could be calling or clicking through to the scammer themself! </h2>");
+		   $("#koala_image").css("display","none");
+	   });	 
+	   	   	     $("#option7").click( function(){
+		   $("#feedback2").html("<h2 style='color:red'> Incorrect. Scam emails can include real informatin about you. </h2>");
+		   $("#koala_image").css("display","none");
+	   });	 
+	   	   	   	     $("#option8").click( function(){
+		   $("#feedback2").html("<h2 style='color:red'> Correct. Verify by calling the number <b> on your official documents> </b> or <b>logging into your account securely</b></h2>");
+		   $("#koala_image").css("display","none");
+	   });	 
+   });
+</script>
+	<script>
+   $( function() {
+	   
+	   $("#favor_email").mouseenter( function(){
+		   $("#favor_email").css("display","none");
+		   $("#favor_clues").css("display","inline");
+		   $("#hint").css("visibility","hidden");
+		   $("#answer").html("<h2>Good job!  Gift card purchases and the element of urgency are clear clues. <br> Remember, a scam email can come from a friend if their account was hacked!</h2>");
+	   });
+	   
+	   $("#favor_clues").mouseleave( function(){
+		   $("#favor_email").css("display","inline");
+		   $("#favor_clues").css("display","none");
+		   $("#hint").css("visibility","visible");
+		   $("#answer").html("");
+	   });
+	   
+   });
+</script>
+</head>
+<body>
+
+<div id="wrapper">       
+ <br>
+	<h1>Quiz</h1>
+	<h2>Test Your Knowhow in Three Questions</h2>
+  <br>
+  <h3 id="hint">1. Of these four email senders, click the one that looks safe:</h3>
+
+  <h4 id="option1" class="choices"> COCA COLA UK AWARD mitchell@gmtel.net </h4>   
+  <h4 id="option2" class="choices"> payhelp@6593.amazon.com </h4>
+  <h4 id="option3" class="choices"> info@mailer.netflix.com </h4>   
+  <h4 id="option4" class="choices"> no3ply-34ja087f@trustez49.com </h4>   
+   
+  <div id="feedback"></div>
+		<br>
+<hr>
+	<br>
+	
+	  <h3 id="hint">2. How should you verify whether an email (or text!) is safe?<br>Click the correct answer:</h3>
+
+  <h4 id="option5" class="choices"> Look for official company branding. </h4>   
+  <h4 id="option6" class="choices"> Call the number or click links in the message to follow up. </h4>
+  <h4 id="option7" class="choices"> Look for valid personal information in the message. </h4>   
+  <h4 id="option8" class="choices"> None of the above. </h4>   
+   
+  <div id="feedback2"></div>
+		<br>
+	
+	<hr>
+	<br>
+<h3 id="hint2">3. Pretend this email comes from someone you know.  <br>Do you see two clues that it's a scam?  Roll over the image to reveal them.  </h3>
+   <img id="favor_email"  src="img/favor.png" />
+   <img id="favor_clues" src="img/favoranswer.png" />
+	
+	 <div id="answer"></div>
+	
+	</div>
+			<br>
+<hr>
+
+	
+	<br>
+ </body>
+</html>
+

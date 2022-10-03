@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#wrapper {
+width: 900;
+margin: 0 auto;
+text-align: center;
+}
+
+ #koala_image {
+border: black 5px solid;
+}
+ 
+ #koala_eating {
+display: none; /* hides content */
+border: black 5px solid;
+}
+.choices {
+cursor: pointer;
+}
+body {
+	background-color:#A2DAFF;   /* background color */
+	color: #000000;          /* text color for the entire page */
+	font-size: 14px;
+	font-family: Trebuchet MS, sans-serif;
+a {
+	padding: 15px;
+margin: 3px;
+	font-size: 125%;
+	background-color:  FAFF83; 
+	color:  FAFF83; 
+}
+
+
+a:hover {
+	font-size:125%;
+	background-color: cornsilk; 
+	color: darkblue; 
+}
