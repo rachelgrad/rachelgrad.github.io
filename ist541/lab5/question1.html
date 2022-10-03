@@ -13,33 +13,26 @@
 	   
        $("#option2").click( function(){
 		   $("#feedback").html("<h2 style='color:red'> Incorrect.  Just because a company name is in the address, doesn't mean it's legit. </h2>");
-		   $("#koala_image").css("display","none");
 	   });	 
 	   
        $("#option3").click( function(){
 		   $("#feedback").html("<h2 style='color:green'> Yes, this address is safe, but it's hard to tell. <br>If you receive a notification from a service provider, ignore it and log in to your official account to verify. </h2>");
-		   $("#koala_image").css("display","inline");
 	   });		   
 	     	
        $("#option4").click( function(){
 		   $("#feedback").html("<h2 style='color:red'> Incorrect.  A long string of numbers and letters like this often indicates a fraud. </h2>");
-		   $("#koala_image").css("display","none");
 	   });	 
 	          $("#option5").click( function(){
 		   $("#feedback2").html("<h2 style='color:red'> Incorrect. Scam emails can include real company branding. </h2>");
-		   $("#koala_image").css("display","none");
 	   });	
 	   	     $("#option6").click( function(){
 		   $("#feedback2").html("<h2 style='color:red'> Incorrect. You could be calling or clicking through to the scammer themself! </h2>");
-		   $("#koala_image").css("display","none");
 	   });	 
 	   	   	     $("#option7").click( function(){
-		   $("#feedback2").html("<h2 style='color:red'> Incorrect. Scam emails can include real informatin about you. </h2>");
-		   $("#koala_image").css("display","none");
+		   $("#feedback2").html("<h2 style='color:red'> Incorrect. Scam emails can include real information about you. </h2>");
 	   });	 
 	   	   	   	     $("#option8").click( function(){
-		   $("#feedback2").html("<h2 style='color:red'> Correct. Verify by calling the number <b> on your official documents> </b> or <b>logging into your account securely</b></h2>");
-		   $("#koala_image").css("display","none");
+		   $("#feedback2").html("<h2 style='color:green'> Correct. Verify by calling the number <b> on your official documents </b> or <b>logging into your account securely.</b></h2>");
 	   });	 
    });
 </script>
@@ -82,7 +75,7 @@
 <hr>
 	<br>
 	
-	  <h3 id="hint">2. How should you verify whether an email (or text!) is safe?<br>Click the correct answer:</h3>
+	  <h3>2. How should you verify whether an email (or text) is safe?<br>Click the correct answer:</h3>
 
   <h4 id="option5" class="choices"> Look for official company branding. </h4>   
   <h4 id="option6" class="choices"> Call the number or click links in the message to follow up. </h4>
