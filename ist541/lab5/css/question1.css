@@ -29,16 +29,8 @@ body {
 	background-color:#A2DAFF;   /* background color */
 	color: #000000;          /* text color for the entire page */
 	font-size: 14px;
-	font-family: Trebuchet MS, sans-serif;
+	font-family: Trebuchet MS, sans-serif;	
 
-	
-
-a {
-	padding: 15px;
-margin: 3px;
-	font-size: 125%;
-	background-color:  cornsilk; 
-	color:  blue; 
 }
 
 a:hover {
