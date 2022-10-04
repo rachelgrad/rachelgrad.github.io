@@ -16,6 +16,11 @@ text-align: center;
 	border: black 0px solid;
 }
 
+#favor_clues {
+
+    display: none;
+
+}
  
  #koala_eating {
 display: none; /* hides content */
@@ -38,10 +43,6 @@ a:hover {
 	color: darkblue; 
 }
 
-#favor_clues {
 
-    display: none;
-
-}
 
 
