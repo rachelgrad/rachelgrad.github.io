@@ -9,7 +9,6 @@ text-align: center;
 
 #thumb {
 	cursor: pointer;
-	border: black 0px solid;
 }
 
 #trash {
@@ -38,3 +37,11 @@ a:hover {
 	background-color: ivory; 
 	color: darkblue; 
 }
+
+#favor_clues {
+
+    display: none;
+
+}
+
+
