@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* CSS Document */
+
+div.header {
+  text-align: center;
+	font-size:125%;
+	background-color: cornsilk; 
+	color: #dark darkblue; 
+}
+
+#wrapper {
+width: 900;
+margin: 0 auto;
+text-align: center;
+}
+
+#thumb {
+	cursor: pointer;
+}
+
+#trash {
+	display: none;
+	border: black 0px solid;
+}
+
+#favor_clues {
+
+    display: none;
+
+}
+ 
+ #koala_eating {
+display: none; /* hides content */
+border: black 5px solid;
+}
+.choices {
+cursor: pointer;
+}
+body {
+	background-color:#A2DAFF;   /* background color */
+	color: #000000;          /* text color for the entire page */
+	font-size: 14px;
+	font-family: Trebuchet MS, sans-serif;	
+
+}
+
+a:hover {
+	font-size:125%;
+	background-color: ivory; 
+	color: darkblue; 
+}
+
+
+
+
