@@ -6,6 +6,21 @@
 		padding:10px;
 		border-radius:10px;
 	}
+
+a {
+	padding: 10px;
+margin: 0px;
+	font-size: 125%;
+	background-color:  #C4DFF6; 
+	color:  FAFF83; 
+	  border-radius: 4px;
+	text-align: center
+		
+}
+div {
+  text-align: left;
+}
+
 .material-icons {
 	color:red; 
 	font-size:2em;
@@ -15,7 +30,7 @@ body {
 	color: #000000;          /* text color for the entire page */
 	font-size: 14px;
 	font-family: Trebuchet MS, sans-serif;
-
+	text-align: center;
 }
 
 h1, h2 { 
@@ -30,7 +45,7 @@ h1, h2 {
 
 /* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
 .stepTitle{
-	padding:4px;
+	padding:0px;
 	text-align:center;
 	font-size:16px;
 	background-color:#FAFF83
@@ -58,6 +73,10 @@ border-radius: 10px;
 box-shadow: 0 4px 4px 0 gray, 0 6px 10px 0 gray;
 }
 
-
+a:hover {
+	font-size:125%;
+	background-color: cornsilk; 
+	color: #dark darkblue; 
+}
 
 

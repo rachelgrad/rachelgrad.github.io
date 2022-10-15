@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	text-align: center;
+	background-color:#A2DAFF;   /* background color */
+	color: #000000;          /* text color for the entire page */
+	font-size: 14px;
+	font-family: Trebuchet MS, sans-serif;
+}
+a {
+	padding: 15px;
+margin: 3px;
+	font-size: 125%;
+	background-color:#cornsilk
+	color: #faff83; 
+}
+
+
+a:hover {
+	font-size:125%;
+	background-color: #cornsilk; 
+	color: darkblue; 
+}
+img { 
+border-radius: 10px;
+box-shadow: 0 4px 4px 0 gray, 0 6px 10px 0 gray;
+}
+
+h1, h2 { 
+	text-align:center;     /* centers h1 and h2 content */
+}
+
+/* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
+#wrapper {
+	width:900px;
+	margin:0 auto;    /* centers wrapper */
+}
