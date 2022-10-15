@@ -12,11 +12,11 @@ a {
 margin: 0px;
 	font-size: 125%;
 	background-color:  #C4DFF6; 
-	color:  FAFF83; 
-	  border-radius: 4px;
-	text-align: center
-		
+	color:  black;
+	corner-radius: 4 px;
+	text-align: center	
 }
+
 div {
   text-align: left;
 }
@@ -76,7 +76,29 @@ box-shadow: 0 4px 4px 0 gray, 0 6px 10px 0 gray;
 a:hover {
 	font-size:125%;
 	background-color: cornsilk; 
-	color: #dark darkblue; 
+	color: darkblue; 
 }
 
 
+#plainlink:hover{	
+	text-align: left;
+		color: darkblue;
+}
+
+#plainlink{	
+	text-align: left;
+		color: darkblue;
+		background-color: antiquewhite; 
+}
+
+#plainlink2:hover{	
+	text-align: left;
+		color: darkblue;
+			background-color: #A2DAFF; 
+}
+
+#plainlink2{	
+	text-align: left;
+		color: darkblue;
+		background-color: #A2DAFF; 
+}
